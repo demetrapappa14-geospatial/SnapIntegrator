@@ -1,4 +1,7 @@
-# SnapIntegrator (QGIS 3.x plugin)
+<h1>
+  <img src="icon.png" width="40" style="vertical-align: middle;">
+  SnapIntegrator
+</h1>
 
 SnapIntegrator is a QGIS plugin for finding **unmerged road endpoints** inside a boundary polygon, based on a chosen attribute field in a road (line) layer.
 It helps you detect where two road segments meet geometrically but **do not share the same attribute value** (for example, different street names or different IDs), which often indicates topology or data-cleaning issues.
